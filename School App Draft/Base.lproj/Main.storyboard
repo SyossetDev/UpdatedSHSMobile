@@ -58,7 +58,7 @@
                                 <rect key="frame" x="166" y="642" width="193" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Swipe Left for Daily Notifications">
+                                    <fragment content="Swipe Left for R/W Day Viewer">
                                         <attributes>
                                             <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Helvetica-Light"/>
@@ -74,9 +74,8 @@
                                     <constraint firstAttribute="width" secondItem="B0b-m1-nEq" secondAttribute="height" multiplier="247:99" id="3oa-5D-Vvz"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="f3Y-nI-Fu9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="f3Y-nI-Fu9">
                                 <rect key="frame" x="16" y="188" width="137" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Our Mission">
                                         <attributes>
@@ -88,9 +87,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="M9q-mD-XdK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="M9q-mD-XdK">
                                 <rect key="frame" x="16" y="224" width="343" height="389"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">     At Syosset High School, we strive to provide an education that is challenging, thorough and useful, in an environment where students find joy in learning. We believe high school is a unique experience, valuable for its own sake. As individuals, our students deserve the opportunity to develop their distinctive talents. While all students should be challenged to think for themselves, we encourage them to work together to share their talents. Our goal is to create lifelong learners who continue to grow and explore long after their last test is taken. It is our hope that Syosset students will emerge as discerning, educated citizens—with the skills necessary to find success in the university, in the workplace, and in all the challenges life offers. Our administration and staff serve to model the values and character we expect of our students: patience, respect, integrity, dignity and empathy. We share our responsibility with parents and our community, and, in turn, hope to make Syosset High School students aware of their responsibility and connection to the larger world.</string>
@@ -126,14 +124,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="M9q-mD-XdK" firstAttribute="leading" secondItem="p2n-sa-Gcc" secondAttribute="leading" constant="16" id="005-J1-xcd"/>
                             <constraint firstItem="qO0-Jh-GVE" firstAttribute="top" secondItem="JLu-KC-652" secondAttribute="bottom" id="2JV-1M-zXL"/>
                             <constraint firstItem="B0b-m1-nEq" firstAttribute="width" secondItem="p2n-sa-Gcc" secondAttribute="width" multiplier="0.6" id="2SG-v3-26z"/>
+                            <constraint firstItem="f3Y-nI-Fu9" firstAttribute="leading" secondItem="p2n-sa-Gcc" secondAttribute="leading" constant="16" id="DQI-OE-RYe"/>
                             <constraint firstItem="JLu-KC-652" firstAttribute="centerX" secondItem="B0b-m1-nEq" secondAttribute="centerX" id="GZa-lp-MUs"/>
+                            <constraint firstItem="CRD-lY-uzQ" firstAttribute="top" secondItem="M9q-mD-XdK" secondAttribute="bottom" constant="54" id="M8n-OH-rWx"/>
+                            <constraint firstAttribute="trailing" secondItem="M9q-mD-XdK" secondAttribute="trailing" constant="16" id="PvI-Ko-zos"/>
                             <constraint firstItem="qO0-Jh-GVE" firstAttribute="centerX" secondItem="JLu-KC-652" secondAttribute="centerX" id="U87-wU-4wM"/>
+                            <constraint firstAttribute="trailing" secondItem="f3Y-nI-Fu9" secondAttribute="trailing" constant="222" id="bTg-w9-8Zi"/>
                             <constraint firstItem="JLu-KC-652" firstAttribute="top" secondItem="B0b-m1-nEq" secondAttribute="bottom" constant="-4" id="cvj-Do-8PS"/>
                             <constraint firstItem="B0b-m1-nEq" firstAttribute="top" secondItem="8E6-d9-DDj" secondAttribute="bottom" id="eyx-Wb-iE3"/>
                             <constraint firstItem="JLu-KC-652" firstAttribute="width" secondItem="B0b-m1-nEq" secondAttribute="width" multiplier="0.6" constant="-21" id="mSa-6t-Gdo"/>
+                            <constraint firstItem="M9q-mD-XdK" firstAttribute="top" secondItem="8E6-d9-DDj" secondAttribute="bottom" constant="204" id="rfn-nL-Zy0"/>
                             <constraint firstItem="qO0-Jh-GVE" firstAttribute="width" secondItem="B0b-m1-nEq" secondAttribute="width" constant="-37" id="sgY-xp-wPU"/>
+                            <constraint firstItem="CRD-lY-uzQ" firstAttribute="top" secondItem="f3Y-nI-Fu9" secondAttribute="bottom" constant="451" id="tgt-KD-NQI"/>
+                            <constraint firstItem="f3Y-nI-Fu9" firstAttribute="top" secondItem="8E6-d9-DDj" secondAttribute="bottom" constant="168" id="wiu-Qy-Kj0"/>
                             <constraint firstItem="B0b-m1-nEq" firstAttribute="centerX" secondItem="p2n-sa-Gcc" secondAttribute="centerX" id="yuI-aa-hpi"/>
                         </constraints>
                     </view>
@@ -169,10 +175,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="75U-JK-Oon">
-                                <rect key="frame" x="16" y="621.5" width="136.5" height="17"/>
+                                <rect key="frame" x="16" y="621.5" width="174" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Swipe Right for About">
+                                    <fragment content="Swipe Right for Our Mission">
                                         <attributes>
                                             <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Helvetica-Light"/>
@@ -430,7 +436,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="eMO-MR-rE0">
                                 <rect key="frame" x="16" y="621" width="193" height="17"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Swipe Right for Daily Notifications">
+                                    <fragment content="Swipe Right for R/W Day Viewer">
                                         <attributes>
                                             <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="Helvetica-Light"/>
@@ -699,20 +705,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="k8t-M5-geR">
-                                <rect key="frame" x="193" y="642" width="166" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Swipe Left for Contact Info">
-                                        <attributes>
-                                            <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="14" name="Helvetica-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ov-iA-Wql">
                                 <rect key="frame" x="28" y="275" width="72" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -936,6 +928,20 @@
                                     <outlet property="delegate" destination="UEe-6Y-hTs" id="G6d-OB-0Md"/>
                                 </connections>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="k8t-M5-geR">
+                                <rect key="frame" x="146" y="642" width="213" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Swipe Left for Contact Information">
+                                        <attributes>
+                                            <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1037,20 +1043,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="28A-uw-bQS">
-                                <rect key="frame" x="222.5" y="642" width="136.5" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Swipe Right for About">
-                                        <attributes>
-                                            <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="14" name="Helvetica-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="eZ1-BH-GsB">
                                 <rect key="frame" x="16" y="621" width="192.5" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1083,6 +1075,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="28A-uw-bQS">
+                                <rect key="frame" x="185" y="642" width="174" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Swipe Right for Our Mission">
+                                        <attributes>
+                                            <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
