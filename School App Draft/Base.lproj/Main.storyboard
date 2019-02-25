@@ -179,9 +179,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="QWx-4t-hPH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="QWx-4t-hPH">
                                 <rect key="frame" x="166" y="642.5" width="193" height="16.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Swipe Left for Grade Calculator">
                                         <attributes>
@@ -193,9 +192,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="75U-JK-Oon">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="75U-JK-Oon">
                                 <rect key="frame" x="16" y="621.5" width="174" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Swipe Right for Our Mission">
                                         <attributes>
@@ -213,29 +211,14 @@
                                     <constraint firstAttribute="width" secondItem="S0U-ax-jbZ" secondAttribute="height" multiplier="247:99" id="jde-ce-sDM"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="In the next update, our current developer will add the widget back into the application. Sorry for any inconvenience." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hf6-xb-p6x">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the next update, our current developer will add the widget back into the application. Sorry for any inconvenience." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hf6-xb-p6x">
                                 <rect key="frame" x="16" y="473" width="343" height="102"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZl-Mk-pRw">
-                                <rect key="frame" x="16" y="346" width="337" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Tomorrow is a White Day">
-                                        <attributes>
-                                            <font key="NSFont" size="18" name="Helvetica-Oblique"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Widget Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="Alx-YJ-joZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Widget Currently Unavailable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="Alx-YJ-joZ">
                                 <rect key="frame" x="51" y="444" width="273" height="20.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -253,18 +236,9 @@
                                 </attributedString>
                                 <color key="highlightedColor" red="0.65787822009999997" green="0.2155324817" blue="0.2118956447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="cwc-Yx-9G5">
-                                <rect key="frame" x="22" y="258" width="331" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Today is a Red Day">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="37" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today is a Red Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="cwc-Yx-9G5">
+                                <rect key="frame" x="11" y="245" width="353" height="60"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="37"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="McP-qs-NtH">
@@ -280,19 +254,78 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="aBa-mH-277">
+                                <rect key="frame" x="16" y="188" width="265" height="28"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Red / White Day Viewer">
+                                        <attributes>
+                                            <color key="NSColor" red="0.82868248224258423" green="0.18355590105056763" blue="0.18041849136352539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZl-Mk-pRw">
+                                <rect key="frame" x="19" y="322" width="337" height="39"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tomorrow is a White Day">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Helvetica-Oblique"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="aBa-mH-277" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="168" id="2wz-ku-GwG"/>
+                            <constraint firstAttribute="trailing" secondItem="LZl-Mk-pRw" secondAttribute="trailing" constant="19" id="55A-Vz-VCU"/>
                             <constraint firstItem="McP-qs-NtH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="128" id="5WP-Cc-x87"/>
                             <constraint firstItem="S0U-ax-jbZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6OL-qc-tLK"/>
+                            <constraint firstItem="QWx-4t-hPH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="166" id="8ht-sv-tJS"/>
+                            <constraint firstItem="LZl-Mk-pRw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="19" id="9Bb-3A-tMn"/>
                             <constraint firstItem="Jjl-cM-Oex" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="86" id="AKH-C2-Dbg"/>
+                            <constraint firstItem="QWx-4t-hPH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="622.5" id="BcS-5p-qFe"/>
+                            <constraint firstItem="cwc-Yx-9G5" firstAttribute="leading" secondItem="aBa-mH-277" secondAttribute="trailing" constant="-270" id="D67-IT-gra"/>
+                            <constraint firstItem="Alx-YJ-joZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="51" id="Dda-PQ-l74"/>
                             <constraint firstItem="S0U-ax-jbZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="Gle-h6-hHi"/>
+                            <constraint firstItem="McP-qs-NtH" firstAttribute="leading" secondItem="aBa-mH-277" secondAttribute="trailing" constant="-187.5" id="HKo-uq-gVK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hf6-xb-p6x" secondAttribute="bottom" constant="92" id="HUH-rT-M5N"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cwc-Yx-9G5" secondAttribute="bottom" constant="362" id="Icz-La-86d"/>
                             <constraint firstItem="Jjl-cM-Oex" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="130.5" id="KrX-pL-Knl"/>
                             <constraint firstAttribute="trailing" secondItem="Jjl-cM-Oex" secondAttribute="trailing" constant="130.5" id="KzO-0j-qu5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LZl-Mk-pRw" secondAttribute="bottom" constant="306" id="MbL-Jz-NnP"/>
+                            <constraint firstItem="Hf6-xb-p6x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="NKp-Db-Tlm"/>
+                            <constraint firstItem="cwc-Yx-9G5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="11" id="OMP-y8-dea"/>
+                            <constraint firstItem="LZl-Mk-pRw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="302" id="PlR-zX-kGT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="McP-qs-NtH" secondAttribute="bottom" constant="507" id="Q6O-Dp-ipK"/>
+                            <constraint firstAttribute="trailing" secondItem="Hf6-xb-p6x" secondAttribute="trailing" constant="16" id="Qmc-3S-n22"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="75U-JK-Oon" secondAttribute="bottom" constant="28.5" id="Rwc-oy-5Ih"/>
+                            <constraint firstItem="cwc-Yx-9G5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="225" id="TJc-4w-dYc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aBa-mH-277" secondAttribute="bottom" constant="451" id="TLJ-uM-eGz"/>
+                            <constraint firstAttribute="trailing" secondItem="75U-JK-Oon" secondAttribute="trailing" constant="185" id="Ug3-GI-Trr"/>
+                            <constraint firstAttribute="trailing" secondItem="cwc-Yx-9G5" secondAttribute="trailing" constant="11" id="Vou-II-SNX"/>
                             <constraint firstAttribute="trailing" secondItem="McP-qs-NtH" secondAttribute="trailing" constant="93.5" id="XGO-UT-tfi"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jjl-cM-Oex" secondAttribute="bottom" constant="519" id="Xlc-ZW-uHo"/>
                             <constraint firstItem="McP-qs-NtH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="93.5" id="b7C-GZ-bxN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Alx-YJ-joZ" secondAttribute="bottom" constant="202.5" id="bpk-Kt-Po6"/>
+                            <constraint firstItem="75U-JK-Oon" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="cJn-Xj-VJ4"/>
+                            <constraint firstItem="Alx-YJ-joZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="424" id="cWr-Ao-zC4"/>
+                            <constraint firstAttribute="trailing" secondItem="Alx-YJ-joZ" secondAttribute="trailing" constant="51" id="dg6-Op-3bW"/>
+                            <constraint firstAttribute="trailing" secondItem="QWx-4t-hPH" secondAttribute="trailing" constant="16" id="fdh-Ru-Htm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QWx-4t-hPH" secondAttribute="bottom" constant="8" id="gJv-VE-XxR"/>
+                            <constraint firstItem="McP-qs-NtH" firstAttribute="leading" secondItem="Jjl-cM-Oex" secondAttribute="trailing" constant="-151" id="ghV-lw-cgG"/>
+                            <constraint firstItem="McP-qs-NtH" firstAttribute="top" secondItem="Jjl-cM-Oex" secondAttribute="bottom" id="ih6-C2-uIR"/>
+                            <constraint firstItem="cwc-Yx-9G5" firstAttribute="top" secondItem="aBa-mH-277" secondAttribute="bottom" constant="29" id="lsm-ca-OXK"/>
+                            <constraint firstAttribute="trailing" secondItem="aBa-mH-277" secondAttribute="trailing" constant="94" id="nrN-kc-UAd"/>
+                            <constraint firstItem="aBa-mH-277" firstAttribute="top" secondItem="McP-qs-NtH" secondAttribute="bottom" constant="28" id="pkc-ou-H52"/>
+                            <constraint firstItem="Hf6-xb-p6x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="453" id="vXd-sl-IAS"/>
+                            <constraint firstItem="aBa-mH-277" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="voz-2s-ocj"/>
+                            <constraint firstItem="75U-JK-Oon" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="601.5" id="xna-rV-48j"/>
                             <constraint firstItem="S0U-ax-jbZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zSI-O5-gAq"/>
                         </constraints>
                     </view>
