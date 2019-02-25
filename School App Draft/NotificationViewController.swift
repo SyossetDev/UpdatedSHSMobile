@@ -47,6 +47,7 @@ class NotificationViewController: UIViewController {
         0, 1, 2, 1, 2, 1, 0, // January 27 - February 2 G
         0, 2, 0, 1, 2, 1, 0, // February 3 - February 9 G
         0, 2, 1, 2, 1, 2, 0, // February 10 - February 16 G
+        0, 0, 0, 0, 0, 0, 0, // February 17 - February 23 G
         0, 1, 2, 1, 2, 1, 0, // February 24 - March 2 G
         0, 2, 1, 2, 1, 2, 0, // March 3 - March 9 G
         0, 1, 2, 1, 2, 1, 0, // March 10 - March 16 G
